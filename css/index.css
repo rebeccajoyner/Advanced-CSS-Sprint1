@@ -1,5 +1,6 @@
 .btn {
   background-color: darkslategray;
+  color: #F1F1F1;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -9,7 +10,8 @@
   font-weight: bold;
 }
 .btn:hover {
-  background-color: darkslategray;
+  background-color: #F1F1F1;
+  color: darkslategray;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126

@@ -1,0 +1,12 @@
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  width: 35%;
+  height: 12%;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: darkslategray;
+}

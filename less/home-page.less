@@ -1,8 +1,59 @@
 // Home Content
 
+
+header {
+  border: 1px double #e0e0e0;
+
+  @media @phone {
+    display: flex;
+    flex-direction: column;
+  } 
+
+
+h1 {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 5rem;
+
+@media @phone {
+  width: 100%;
+
+  }
+}
+
+}
+
+
+
 .home {
 
+
+  @media @phone {
+    display: flex;
+    flex-direction: column;
+  }
+
   .intro {
+
+    .head-img {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+      img {
+        border-radius: 7px;
+
+
+        @media @phone {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+
+      }
 
     h2 {
       padding: 15px;

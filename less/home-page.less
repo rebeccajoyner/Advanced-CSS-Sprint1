@@ -2,8 +2,9 @@
 
 @phone: ~"(max-width: 500px)";
 
-header {
+.head .header {
   border: 1px double #e0e0e0;
+  align-content: center;
 
   @media @phone {
     display: flex;
@@ -12,12 +13,12 @@ header {
   
 }
 
-h1 {
+.head .haeder h1 {
 
-  font-size: 4rem;
+  font-size: 40rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
   padding-top: 5px;
 
 @media @phone {
@@ -104,10 +105,13 @@ h1 {
   .walk {
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
-    padding: 50px 60px;
+    padding: 3.5rems 3.8rems;
     display: flex;
     justify-content: center;
     
+    @media @phone {
+      flex-direction: column;
+    }
 
     .walk-text {
       width: 50%;

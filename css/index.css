@@ -160,6 +160,24 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+nav a {
+  align-content: space-around;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  nav {
+    width: 100%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

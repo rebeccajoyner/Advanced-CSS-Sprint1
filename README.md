@@ -39,6 +39,7 @@ Edit this document to include your answers after each question. Make sure to lea
 -Information is pre-selected and only specific device based info will be displayed.
 -Templates are optimized for each device.
 
+*Responsive websites:
 -Devices are detected by media queries. Flexible grid and images are sized correctly to the view of devices.
 -All content is downloading whether it is used or not.
 -One template for all devices.

@@ -1,1 +1,77 @@
 // Mixins Here
+
+@background-color: @btnbg;
+@btnbg: darkslategray;
+
+
+
+@font-size: @btfont;
+@btfont: 2rem;
+
+
+
+.btn-custom(@btnbg:darkslategrey, @btfont: 2rem){
+
+    
+
+}
+
+
+
+
+.btn {
+background-color: @btnbg;
+color: @sea-shell;
+display: flex;
+align-items: center;
+padding: 10px;
+border-radius: 7px;
+
+font-weight: bold;
+
+
+
+    &:hover {
+        background-color: @sea-shell;
+        color: @btnbg;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+// .btn {
+//     background-color: @btn-bg-color;
+//     color: @sea-shell;
+//     display: flex;
+//     align-items: center;
+//     padding: 10px;
+//     border-radius: 7px;
+//      width: 35%;
+//     height: 12%;
+//     font-size: 2rem;
+//     font-weight: bold;
+                
+    
+//     &:hover {
+//         background-image: linear-gradient(rgb(0, 98, 128), grey, rgb(0, 98, 128));
+//         color: gray;
+//     }
+    
+    
+    @media @phone {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    }
+//     }
+    
+//     }
+    
